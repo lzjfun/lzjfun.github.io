@@ -7,15 +7,19 @@
   
   
   
-  <title>网安</title>
+  <title>33 | 网安</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="网安">
-<meta property="og:url" content="http://example.com/index.html">
+  <meta property="og:type" content="article">
+<meta property="og:title" content="33">
+<meta property="og:url" content="http://example.com/2022/11/28/33/index.html">
 <meta property="og:site_name" content="网安">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="d:\blog\source_posts\33\image-20221127164930192.png">
+<meta property="article:published_time" content="2022-11-28T07:25:00.000Z">
+<meta property="article:modified_time" content="2022-11-28T07:26:12.460Z">
 <meta property="article:author" content="LuDim">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="d:\blog\source_posts\33\image-20221127164930192.png">
   
     <link rel="alternative" href="/atom.xml" title="网安" type="application/atom+xml">
   
@@ -29,9 +33,6 @@
   <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   
-    
-    
-  
   
       <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
   
@@ -42,8 +43,8 @@
       var yiliaConfig = {
           fancybox: true,
           animate: false,
-          isHome: true,
-          isPost: false,
+          isHome: false,
+          isPost: true,
           isArchive: false,
           isTag: false,
           isCategory: false,
@@ -271,9 +272,7 @@
         </header>
     </div>
 </nav>
-      <div class="body-wrap">
-  
-    <article id="post-33" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-33" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
       <a  href="/2022/11/28/33/" class="article-date">
@@ -290,13 +289,20 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a  class="article-title" href="/2022/11/28/33/">33</a>
+    <h1 class="article-title" itemprop="name">
+      33
     </h1>
   
 
 
       </header>
+      
+      <div class="article-info article-info-post">
+        
+
+        
+        <div class="clearfix"></div>
+      </div>
       
     
     <div class="article-entry" itemprop="articleBody">
@@ -307,238 +313,153 @@
       
     </div>
     
-    <div class="article-info article-info-index">
-      
-      
-
-      
-      
-      <div class="clearfix"></div>
-    </div>
-    
   </div>
+  
+    
+    <div class="copyright">
+        <p><span>本文标题:</span><a  href="/2022/11/28/33/">33</a></p>
+        <p><span>文章作者:</span><a  href="/" title="访问 1 的个人博客">1</a></p>
+        <p><span>发布时间:</span>2022年11月28日 - 15时25分</p>
+        <p><span>最后更新:</span>2022年11月28日 - 15时26分</p>
+        <p>
+            <span>原始链接:</span><a class="post-url" href="/2022/11/28/33/" title="33">http://example.com/2022/11/28/33/</a>
+            <span class="copy-path" data-clipboard-text="原文: http://example.com/2022/11/28/33/　　作者: 1" title=""></span>
+        </p>
+        <p>
+            <span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license noopener" target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/" title="中国大陆 (CC BY-NC-SA 3.0 CN)" target = "_blank">"署名-非商用-相同方式共享 3.0"</a> 转载请保留原文链接及作者。
+        </p>
+    </div>
+
+
+
+<nav id="article-nav">
+  
+  
+    <a  href="/2022/11/28/2/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">2</div>
+      <strong class="article-nav-caption">></strong>
+    </a>
+  
+</nav>
+
+
   
 </article>
 
-
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-2" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a  href="/2022/11/28/2/" class="article-date">
-      <time datetime="2022-11-28T07:20:33.000Z" itemprop="datePublished">2022-11-28</time>
-</a>
-
-    </div>
-  
-  <div class="article-inner">
+    <div id="toc" class="toc-article">
+    <strong class="toc-title">文章目录</strong>
     
-      <input type="hidden" class="isFancy" />
+</div>
+<style>
+    .left-col .switch-btn {
+        display: none;
+    }
+    .left-col .switch-area {
+        display: none;
+    }
+</style>
+<input type="button" id="tocButton" value="隐藏目录"  title="点击按钮隐藏或者显示文章目录">
+
+<script src="https://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
+
+<script>
+    var valueHide = "隐藏目录";
+    var valueShow = "显示目录";
+    if ($(".left-col").is(":hidden")) {
+        $("#tocButton").attr("value", valueShow);
+    }
+    $("#tocButton").click(function() {
+        if ($("#toc").is(":hidden")) {
+            $("#tocButton").attr("value", valueHide);
+            $("#toc").slideDown(320);
+            $(".switch-btn, .switch-area").fadeOut(300);
+        }
+        else {
+            $("#tocButton").attr("value", valueShow);
+            $("#toc").slideUp(350);
+            $(".switch-btn, .switch-area").fadeIn(500);
+        }
+    })
+    if ($(".toc").length < 1) {
+        $("#toc, #tocButton").hide();
+        $(".switch-btn, .switch-area").show();
+    }
+</script>
+
+
+
+
+<div class="bdsharebuttonbox">
+	<a href="#" class="fx fa-weibo bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+	<a href="#" class="fx fa-weixin bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+	<a href="#" class="fx fa-qq bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a>
+	<a href="#" class="fx fa-facebook-official bds_fbook" data-cmd="fbook" title="分享到Facebook"></a>
+	<a href="#" class="fx fa-twitter bds_twi" data-cmd="twi" title="分享到Twitter"></a>
+	<a href="#" class="fx fa-linkedin bds_linkedin" data-cmd="linkedin" title="分享到linkedin"></a>
+	<a href="#" class="fx fa-files-o bds_copy" data-cmd="copy" title="分享到复制网址"></a>
+</div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"2","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+
+
+
+
     
+        <section class="changyan" id="comments">
+  <!--<div id="uyan_frame"></div>-->
+  <div id="SOHUCS"></div>
+  <script charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/changyan.js"></script>
+  <script type="text/javascript">
+    window.changyan.api.config({
+      appid: 'xxxx',
+      conf: 'xxxxxxxxx'
+    });
+  </script>
+</section>
     
-      <header class="article-header">
+
+
+
+    <div class="scroll" id="post-nav-button">
         
-  
-    <h1 itemprop="name">
-      <a  class="article-title" href="/2022/11/28/2/">2</a>
-    </h1>
-  
-
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-        <p><img src="D:\blog\source_posts\2\image-20221127170406814.png" alt="image-20221127170406814"></p>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-kali/kali生成字典库" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a  href="/2022/11/28/kali/kali%E7%94%9F%E6%88%90%E5%AD%97%E5%85%B8%E5%BA%93/" class="article-date">
-      <time datetime="2022-11-28T02:55:11.000Z" itemprop="datePublished">2022-11-28</time>
-</a>
-
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
+            <a  href="/" title="回到主页"><i class="fa fa-home"></i></a>
         
-  
-    <h1 itemprop="name">
-      <a  class="article-title" href="/2022/11/28/kali/kali%E7%94%9F%E6%88%90%E5%AD%97%E5%85%B8%E5%BA%93/">kali生成字典库</a>
-    </h1>
-  
-
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-        <h1 id="kali生成字典库"><a href="#kali生成字典库" class="headerlink" title="kali生成字典库"></a>kali生成字典库</h1><ol>
-<li></li>
-</ol>
-<p>生成最小长度为3位，最大长度为4位，由1，2，3，4组成的字典。</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">crunch 3 4 1234</span><br></pre></td></tr></table></figure>
-
-<p><img src="D:\blog\source_posts\image-20221127164856566.png" alt="image-20221127164856566"></p>
-<p><img src="D:\blog\source_posts\image-20221127164930192.png" alt="image-20221127164930192"></p>
-<p>如上图所示字典库创建成功，我后面跟上的 &gt;&gt;&#x2F;home&#x2F;kail&#x2F;桌面&#x2F;zidian.txt    是为了让字典直接生成到桌面</p>
-<ol start="2">
-<li></li>
-</ol>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">**crunch 3 3 -p zhangsan 20000101**  </span><br></pre></td></tr></table></figure>
-
-<p>​       这里意思就是造一个包含有关个人信息的字典库，例如这里就是造了一个包含zhangsan和生日为20000101的意思就是 <strong>-p</strong>后面跟上包含的信息</p>
-<p><img src="D:\blog\source_posts\image-20221127170116579.png" alt="image-20221127170116579"></p>
-<p>3</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">crunch 7 7 -t 2018%%%</span><br></pre></td></tr></table></figure>
-
-<p>** —- 生成以2018开头的7位纯数字密码(ps：其中%代表所有的数字,@代表所有的小写字母,逗号代表所有大写字母)**</p>
-<p><img src="D:\blog\source_posts\image-20221127170406814.png" alt="image-20221127170406814"></p>
-<p><img src="D:\blog\source_posts\image-20221127170428552.png" alt="image-20221127170428552"></p>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a  href="/2022/11/17/hello-world/" class="article-date">
-      <time datetime="2022-11-17T01:14:48.089Z" itemprop="datePublished">2022-11-17</time>
-</a>
-
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
+        <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
         
-  
-    <h1 itemprop="name">
-      <a  class="article-title" href="/2022/11/17/hello-world/">Hello World</a>
-    </h1>
-  
-
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
+            <a  href="/2022/11/28/2/" title="下一篇: 2">
+                <i class="fa fa-angle-right"></i>
+            </a>
+        
     </div>
+    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2022/11/28/33/">33</a></li><li class="post-list-item"><a class="post-list-link" href="/2022/11/28/2/">2</a></li><li class="post-list-item"><a class="post-list-link" href="/2022/11/28/kali/kali%E7%94%9F%E6%88%90%E5%AD%97%E5%85%B8%E5%BA%93/">kali生成字典库</a></li><li class="post-list-item"><a class="post-list-link" href="/2022/11/17/hello-world/">Hello World</a></li></ul>
     
-    <div class="article-info article-info-index">
-      
-      
+<script src="https://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
 
-      
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
+    <script>
+        $(".post-list").addClass("toc-article");
+        // $(".post-list-item a").attr("target","_blank");
+        $("#post-nav-button > a:nth-child(2)").click(function() {
+            $(".fa-bars, .fa-times").toggle();
+            $(".post-list").toggle(300);
+            if ($(".toc").length > 0) {
+                $("#toc, #tocButton").toggle(200, function() {
+                    if ($(".switch-area").is(":visible")) {
+                        $("#toc, .switch-btn, .switch-area").toggle();
+                        $("#tocButton").attr("value", valueHide);
+                        }
+                    })
+            }
+            else {
+                $(".switch-btn, .switch-area").fadeToggle(300);
+            }
+        })
+    </script>
 
 
 
 
-
-
-
-
-
-
-
-  
-  
+    <script>
+        
+    </script>
 
 </div>
       <footer id="footer">
